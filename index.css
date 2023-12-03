@@ -1,0 +1,217 @@
+:root{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 0.5rem;
+}
+.logo{
+    width:2rem;
+}
+
+.right-side-nav>h1{
+    font-size: 1.3rem;
+    margin-left: 2px;
+}
+ul{
+    list-style-type: none;
+}
+
+.right-side-nav,ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul>li{
+    padding: 5px;
+    font-size: 1rem;
+    padding:0 0.7rem;
+}
+.login{
+    border-left: 1px solid #d3d3d3;
+}
+
+.nav-btn{
+    padding: 0.6rem 1rem;
+    background-color: black;
+    color: white;
+    border-radius:5px
+}
+.main-section{
+    width:80%;
+    margin-top: 1rem;
+}
+.main-section,.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto ;
+}
+.hero-section h1{
+    font-size:4rem;
+    text-align: center;
+    margin:0;
+}
+.hero-section p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hero-section button, .parade button{
+    padding:0.6rem 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.img-container{
+    width: 60%;
+}
+.hero-img{
+    width: 100%;
+}
+
+.feature-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-container div{
+    width:19%;
+    margin: 0 auto;
+    padding: 0 10px;
+    border:1px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+.feature-container div:hover{
+    background: #d3d3d3;
+}
+
+.notes-img{
+    width:100%;
+    border:1px solid #d3d3d3;
+    margin-top:5px;
+    border-radius: 5px;
+}
+.brands{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.brands-logo{
+    width:100px;
+    border-radius: 50%;
+}
+.collab h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.collab p{
+    font-size: 1.5rem;
+}
+.community-section{
+    margin-top: 5px;
+    text-align: center;
+}
+.community-section h2{
+    font-size:3rem;
+    text-align: center;
+}
+.community-section p{
+    font-size: 1.3rem;
+}
+.members-data{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.members-data h1{
+    font-size: 3rem;
+    color:dodgerblue;
+}
+.members-data div{
+    padding: 12px;
+    background: #d3d3d3;
+    width: 25%;
+    border-radius: 5px;
+}
+.community-section-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.community-section-2 div{
+    margin:0 10px;
+    background: #d3d3d3;
+    padding: 0 10px;
+    width:50%;
+    text-align: center;
+    border-radius: 5px;
+}
+.welc-to-notion{
+    width:90%;
+    margin-top: 30px;
+    padding:30px;
+}
+.parade{
+    text-align: center;
+}
+.parade h3 {
+    font-size: 3rem;
+}
+.parade p{
+    font-size: 2rem;
+}
+.parade button{
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:80%;
+    margin:50px auto;
+    border-top: 1px solid #d3d3d3;
+    padding:10px 0;
+}
+.footer-logo{
+    display: flex;
+ 
+}
+.footer-logo h1{
+    font-size: 1rem;
+}
+footer div h3{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+
+}
+footer div ul {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 0;
+    margin: 0 ;
+}
+footer div ul li{
+    padding: 0;
+    margin: 9px 0;
+    color: grey;
+}
+.copyright{
+    text-align: center;
+    color: grey;
+}
